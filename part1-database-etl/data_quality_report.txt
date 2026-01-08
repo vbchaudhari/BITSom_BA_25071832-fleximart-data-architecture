@@ -1,0 +1,13 @@
+ETL Execution Report
+--------------------
+Source Files Processed: 3 (Customers, Products, Sales)
+Status: Success
+
+Data Cleaning Actions:
+- Removed duplicates from Customers and Sales.
+- Standardized Phone Numbers to +91 format.
+- Fixed Date formats and removed rows with invalid dates.
+- Mapped CSV IDs to Database Auto-Increment IDs.
+
+Load Status:
+- All valid records loaded into MySQL 'fleximart' database successfully.
